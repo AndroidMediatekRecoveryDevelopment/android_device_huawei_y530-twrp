@@ -47,7 +47,7 @@ BOARD_MKBOOTIMG_ARGS := --dt device/huawei/y530/dt.img --ramdisk_offset 0x020000
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
 
 # Recovery
-RECOVERY_VARIANT= omni
+RECOVERY_VARIANT= twrp
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_PREBUILT_RECOVERY_KERNEL := device/huawei/y530/kernel
 TARGET_RECOVERY_FSTAB := device/huawei/y530/recovery.fstab
